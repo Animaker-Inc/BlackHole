@@ -112,7 +112,7 @@
 				LastUpgradeCheck = 1030;
 				TargetAttributes = {
 					2D7477A81578168D00412279 = {
-						DevelopmentTeam = Q5C99V536K;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -321,7 +321,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = Q5C99V536K;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=0",
@@ -332,6 +333,7 @@
 				MARKETING_VERSION = 0.2.6;
 				PRODUCT_BUNDLE_IDENTIFIER = audio.existential.BlackHole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = driver;
 			};
 			name = Release;
@@ -341,7 +343,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = Q5C99V536K;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
@@ -352,6 +355,7 @@
 				MARKETING_VERSION = 0.2.6;
 				PRODUCT_BUNDLE_IDENTIFIER = audio.existential.BlackHole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = driver;
 			};
 			name = Debug;
@@ -361,7 +365,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = Q5C99V536K;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
@@ -372,6 +377,7 @@
 				MARKETING_VERSION = 0.2.6;
 				PRODUCT_BUNDLE_IDENTIFIER = audio.existential.BlackHole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = driver;
 			};
 			name = "Debug-Opt";
