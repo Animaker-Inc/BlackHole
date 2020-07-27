@@ -1837,7 +1837,7 @@ static OSStatus	BlackHole_GetDevicePropertyData(AudioServerPlugInDriverRef inDri
 		case kAudioObjectPropertyName:
 			//	This is the human readable name of the device.
 			FailWithAction(inDataSize < sizeof(CFStringRef), theAnswer = kAudioHardwareBadPropertySizeError, Done, "BlackHole_GetDevicePropertyData: not enough space for the return value of kAudioObjectPropertyManufacturer for the device");
-			*((CFStringRef*)outData) = CFStringCreateWithFormat(NULL, NULL, CFSTR(DEVICE_NAME), NUMBER_OF_CHANNELS);
+			*((CFStringRef*)outData) = CFStringCreateWithFormat(NULL, NULL, CFSTR(DEVICE_NAME));
 			*outDataSize = sizeof(CFStringRef);
 			break;
 			
