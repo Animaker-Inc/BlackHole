@@ -152,7 +152,7 @@ static bool                         gMute_Output_Master_Value           = false;
 static const UInt32                 kDataSource_NumberItems             = 1;
 #define                             kDataSource_ItemNamePattern         "BlackHole %ich"
 
-#define                             DEVICE_NAME                         "Vmaker Audio Device"
+#define                             DEVICE_NAME                         "Vmaker Sound"
 #define                             MANUFACTURER_NAME                   "Existential Audio Inc."
 
 static UInt32                       gDataSource_Input_Master_Value      = 0;
